@@ -1,0 +1,14 @@
+{
+  "name": "Contextmenu Close",
+  "version": "1.0",
+  "description": "Adds a 'Close tab' option to the chrome context menu (right click menu).",
+  "permissions": [
+    "contextMenus","tabs"
+  ],
+  "icons": {
+    "16": "icon_16.png",
+	"48": "icon_48.png",
+	"128": "icon_128.png"
+  },
+ "background_page": "background.html"
+}

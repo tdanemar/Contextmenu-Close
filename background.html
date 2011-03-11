@@ -1,0 +1,6 @@
+<script>
+	var closeTab = function(info, tab) {
+		chrome.tabs.remove(tab.id);	
+	}
+	chrome.contextMenus.create({"title": "Close Tab","contexts": ["all"], "onclick": closeTab});
+</script>
